@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family: 'OpenSans'; color: #3b3b3b; }
+a { color: #927328; }
+a:focus { outline: none; }
+h1 { color: #bdbdbd; font-size: 60px; font-family: 'OpenSans-Light'; text-align: center; }
+h1 a, h2 a, h2 { color: #bdbdbd; }
+
+/* Pagination */
+.pagination > .active > a,
+.pagination > .active > span { background-color: #463838; border-color: #463838; }
+.pagination > li > a, .pagination > li > span { color: #463838; }
+
+/* Navbar */
+.navbar-default .navbar-nav > li > a { color: #453838; font-size: 16px; text-transform: uppercase; }
+.navbar-default .navbar-nav > li > a:hover { color: #000; }
+.navbar { background: none; border: none; margin: 0; }
+
+/* Logo */
+.logo { margin-bottom: -38px; margin-top: 20px; position: relative; z-index: 999; }
+
+/* Page Header */
+.page_header { background-image: url(../images/headerbg.jpg); min-height: 250px; margin-bottom: 20px; }
+.page_header h1 { font-size: 60px; color: #839b18; text-align: right; }
+
+/* Slider */
+.slider { background-image: url(../images/headerbg.jpg); font-size: 16px; color: #000; text-align: center; }
+.slider h1 { font-size: 53px; color: #1b1b19; font-family: 'OpenSans-Bold'; text-transform: uppercase; }
+
+/* Activities */
+.activities { font-size: 14px; color: #3b3b3b; background-color: #f2f0e9; padding-bottom: 50px; }
+.activities h2 { font-size: 33px; color: #3b3b3b; }
+
+/* Featured Products */
+.featured-products { text-align: center; padding: 60px 65px; }
+.featured-products h2 { color: #1b1b19; font-size: 33px; }
+
+/* Footer */
+.footer { background-color: #edeada; font-size: 14px; color: #7f6437; padding: 40px 0 50px; }
+.footer h3 { font-size: 24px; text-transform: uppercase; color: #1b1b19; font-family: 'OpenSans-Light'; }
+.footer-bottom { background-color: #dad4bd; color: #292929; font-size: 13px; }
+
+/* WooCommerce Product Grid */
+.woocommerce ul.products li.product { width: 48% !important; float: left !important; clear: both !important; }
+.woocommerce ul.products li.product:nth-child(2n) { float: right !important; clear: none !important; }
+
+/* Responsive Breakpoints */
+@media (max-width: 767px) {
+  .slider h1 { font-size: 25px; margin-top: 60px; text-align: center; }
+  .activities h2 { font-size: 22px; }
+  .footer-bottom { text-align: center; }
+}

@@ -1,0 +1,205 @@
+{% include "partials/header.html" %}
+<style>
+    .textbg {
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+    .textbg h1, .textbg h2 {
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+    .carousel-item img {
+        width: 100%;
+        height: 500px; /* fixed height for all slides */
+        object-fit: cover; /* crop/scale to fill without distortion */
+        }
+</style>
+<style>
+    .activities {
+    background-color: #f2f0e9;
+    font-size: 16px;
+    color: #3b3b3b;
+    }
+    .activities h1 {
+    font-size: 36px;
+    color: #1b1b19;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .activities h3 {
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: 600;
+    }
+    .activities p {
+    line-height: 1.6;
+    }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<div id="main-slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/pexels-photo-1-2000x500.jpg"
+                 class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Secure your yield with</h2>
+                <h1>The CocoPeat Factory Substrates</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/FF_Slide-2-1266x500.jpg"
+                 class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>100% NATURAL</h1>
+                <h2>Eco-friendly growing medium</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/pexels-photo-58460_x-2000x500.jpg"
+                 class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+                <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/TE-Logo_White.png"
+                     alt="Techno Exports Logo" class="mb-3" style="max-height:150px;">
+                <h1>A Techno Exports concern</h1>
+                <h2>The multi-time national award winning export house</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#main-slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#main-slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="2"></button>
+    </div>
+</div>
+
+<div class="activities py-5">
+  <div class="container">
+    <div class="row featured-products">
+      <div class="col-12 text-center mb-4">
+        <h1 class="mb-3">We, The CocoPeat Factory!</h1>
+        <p class="lead">
+          We are the leading manufacturer, exporter and wholesaler of premium Coir Products from India.
+          Our product range includes Coco Peat substrates, Erosion Control coir products and Coir Garden Articles.
+          Our parent company, Techno Exports, is a multi-time National Award winning, ISO certified, One Star Export House.
+          The CocoPeat Factory was incepted in the year 2003 as a sister concern.
+          We manufacture and export high quality coco peat substrates, coir garden articles and erosion control products.
+        </p>
+        <hr class="my-4">
+      </div>
+
+      <div class="col-12 text-center mb-4">
+        <h3 class="mb-3">Coir &amp; Coco Peat Manufacturer</h3>
+        <p>
+          Our manufacturing process starts by processing raw coconut husks. Unlike many competitors,
+          we rely mainly on our own production, giving us greater control over the quality of our raw materials.
+          We procure husks from nearby plantations, which are then processed into Coconut Fibre and Coco Peat.
+          The fibre is used to manufacture erosion control products and garden articles, while the raw Coco Peat
+          is washed, sun-dried in concreted dry-yards, and screened to remove stones and sand.
+          Finally, the coco peat is compacted to produce a wide range of substrates.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featuredPageWidget py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/5Kg-300x258.jpg"
+               class="card-img-top img-fluid" alt="Coco Peat Block 5kg">
+          <div class="card-body">
+            <h5 class="card-title">Coco Peat Blocks</h5>
+            <p class="card-text">Washed Low EC and Unwashed High EC coco peat blocks.</p>
+            <a href="/products/cocopeat/coco-peat-5kg-blocks/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/Growbag-300x206.jpg"
+               class="card-img-top img-fluid" alt="Coco Growbag">
+          <div class="card-body">
+            <h5 class="card-title">Coco Peat Growbags</h5>
+            <p class="card-text">Bespoke composition coco peat growbag slabs for professional growers and greenhouse cultivation.</p>
+            <a href="/products/cocopeat/cocopeat-growbags/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/Coco-Chips.jpg"
+               class="card-img-top img-fluid" alt="Coco Chips">
+          <div class="card-body">
+            <h5 class="card-title">Coco Chips</h5>
+            <p class="card-text">Coconut husk cut into small chip pieces and graded according to size.</p>
+            <a href="/products/coco-chips/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/Briquette-300x231.jpg"
+               class="card-img-top img-fluid" alt="Cocopeat Briquette">
+          <div class="card-body">
+            <h5 class="card-title">Coco Peat Briquette</h5>
+            <p class="card-text">Individually shrink wrapped with label and packed in cartons for retail distribution.</p>
+            <a href="/products/cocopeat/coco-peat-briquettes/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2017/01/Tablet-400x267.jpg"
+               class="card-img-top img-fluid" alt="Coco Peat Tablets">
+          <div class="card-body">
+            <h5 class="card-title">Coco Peat Tablets</h5>
+            <p class="card-text">Disc shaped coco peat tablets for seedlings and planting in pots.</p>
+            <a href="/products/cocopeat/coco-peat-tablets/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card h-100 text-center">
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2020/07/Cocopeat_Compost_Pot-300x300.jpg"
+               class="card-img-top img-fluid" alt="Cocopeat Compost Pot">
+          <div class="card-body">
+            <h5 class="card-title">Cocopeat Compost</h5>
+            <p class="card-text">Naturally aged, organic composted coco peat, enriched with Asola and Neem Cake.</p>
+            <a href="/products/coco-peat-compost/" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% include "partials/footer.html" %}

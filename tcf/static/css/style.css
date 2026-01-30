@@ -1,0 +1,57 @@
+/*
+
+Theme Name:         Techno
+
+Theme URI:          rendez-starter-theme/
+
+Description:        RendeZ WordPress starter theme.
+
+Version:            1
+
+Author:             RendeZ
+
+Author URI:         http://RendeZtech.com/
+
+License:            MIT License
+
+License URI:        http://opensource.org/licenses/MIT
+
+*/
+
+
+
+
+
+.product_meta h4{
+	font-size : 13px;
+}
+
+.woocommerce-ordering, .woocommerce-result-count {
+	display:none;
+}
+
+.product_details h1{
+	text-align:left;
+	font-size:48px;
+}
+
+.product_details table{
+	margin-top:40px;
+}
+
+.product_details th{
+	color:#1b1b19;
+}
+
+.product_details strong{
+	color:#1b1b19;
+}
+
+.term-description{
+	margin-bottom:20px;
+}
+
+#featuredProductsCarousel h4 {
+	font-family: 'OpenSans';
+	color: #3b3b3b;
+}

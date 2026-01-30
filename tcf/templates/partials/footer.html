@@ -1,0 +1,155 @@
+
+<style>
+    .footer {
+  background-color: #edeada;
+  font-size: 14px;
+  color: #7f6437;
+  padding: 40px 0 50px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #1b1b19;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #839b18;
+  text-decoration: underline;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+.footer-bottom {
+  background-color: #dad4bd;
+  color: #292929;
+  font-size: 13px;
+}
+
+.footer-bottom a {
+  color: #3b3b3b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-bottom a:hover {
+  color: #839b18;
+  text-decoration: underline;
+}
+
+</style>
+<div class="footer mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- India Office -->
+      <div class="col-md-3 col-6 mb-4">
+        <h3>India</h3>
+        <ul class="list-unstyled">
+          <li>
+            <div>
+              382A/PP-VI, Pattanakad P.O.,<br/>
+              Cherthala, Alappuzha (Dt.), <br/>
+              Kerala, India - 688 531
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="mailto:info@fibrefamily.info">info@fibrefamily.info</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Factory -->
+      <div class="col-md-3 col-6 mb-4">
+        <h3>Factory</h3>
+        <ul class="list-unstyled">
+          <li>
+            <div>
+              Geo Modern Agri India Pvt Ltd<br/>
+              SFNo: 264/1B2,<br/>
+              Pethanaicanur P.O,<br/>
+              Pollachi, Tamil Nadu.<br/>
+              India - 642134
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Spacer -->
+      <div class="col-md-3 col-6 mb-4">
+        <!-- Empty column for layout balance -->
+      </div>
+
+      <!-- Certifications & Policies -->
+      <div class="col-md-3 col-6 mb-4 text-center">
+        <figure>
+          <img src="https://www.fibrefamily.com/wp-content/uploads/2022/03/ISO_Badge_FF.png"
+               alt="ISO Certification Badge"
+               class="img-fluid mb-3" style="max-width: 150px;" />
+        </figure>
+        <ul class="list-unstyled">
+          <li><a href="https://www.fibrefamily.com/terms-and-conditions/">Terms And Conditions</a></li>
+          <li><a href="https://www.fibrefamily.com/shipping-policy/">Shipping Policy</a></li>
+          <li><a href="https://www.fibrefamily.com/cancellation-refunds-returns/">Cancellation, Refunds & Returns</a></li>
+          <li><a href="https://www.fibrefamily.com/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="https://www.fibrefamily.com/contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="footer-bottom py-3">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Bottom Logo -->
+      <div class="col-sm-2 text-center mb-3 mb-sm-0">
+        <img src="https://res.cloudinary.com/dni3icbrx/image/upload/v1769691176/The_CocoPeat_Factory_Logo_hxjncj.jpg"
+             alt="The CocoPeat Factory Logo"
+             class="img-fluid" style="max-width:100px;" />
+      </div>
+
+      <!-- Footer Menu + Copyright -->
+      <div class="col-sm-10 text-sm-start text-center">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/cocopeat/cocopeat-growbags/">Growbags</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/cocopeat/coco-peat-5kg-blocks/">Blocks</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/cocopeat/coco-peat-briquettes/">Briquettes</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/cocopeat/coco-peat-coco-coir-seed-starters/">Seed Starters</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/cocopeat/coco-peat-tablets/">Tablets</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/coco-chips/">Coco Chips</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/coir-mulch-mats/">Mulch Mats</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/coir-geotextiles/">Geo-Textiles</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/coco-poles/">Coco Poles</a></li>
+          <li class="list-inline-item"><a href="https://www.fibrefamily.com/products/coir-logs/">Coir Logs</a></li>
+        </ul>
+
+        <div class="small text-muted">
+          Copyright &copy; <a href="{{ url_for('main.home') }}">The CocoPeat Factory</a> | All rights reserved.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  // Optional: customize carousel behavior
+  const myCarousel = document.querySelector('#main-slider');
+  const carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 5000,   // auto-slide every 5 seconds
+    ride: 'carousel', // start automatically
+    pause: 'hover'    // pause on hover
+  });
+</script>
