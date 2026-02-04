@@ -55,3 +55,6 @@ License URI:        http://opensource.org/licenses/MIT
 	font-family: 'OpenSans';
 	color: #3b3b3b;
 }
+.wp-block-heading
+	{ color: lightgreen;
+	}

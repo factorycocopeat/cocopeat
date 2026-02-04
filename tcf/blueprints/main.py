@@ -7,3 +7,9 @@ def home():
     return render_template(
         "main/home.html"
     )
+
+@bp.route("/infrastructure")
+def infrastructure():
+    return render_template(
+        "production/infrastructure.html"
+    )
